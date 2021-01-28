@@ -1,4 +1,6 @@
 # Write your MySQL query statement below
+# https://stackoverflow.com/questions/3491329/group-by-with-maxdate
+# Joe Meyer http://stackoverflow.com/a/14841015/632951
 SELECT
     D.name AS 'Department',
     E.name AS 'Employee',
@@ -19,7 +21,4 @@ INNER JOIN
     WHERE
         t2.Salary IS NULL) AS E
 ON
-    D.Id = E.DepartmentId
-​
-​
-​
+    D.Id = E.DepartmentId;
