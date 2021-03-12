@@ -1,7 +1,6 @@
 int missingNumber(int* nums, int numsSize){
-    int i, result = 0;
-    for(i=0; i<numsSize; i++){
-        result ^= i ^ nums[i];
-    }
+    int result = 0;
+    for(int i=0; i<numsSize; i++)
+        result ^= *(nums+i)^i;
     return result^numsSize;
 }
