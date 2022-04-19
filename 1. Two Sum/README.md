@@ -9,7 +9,7 @@
 
 <pre><strong>Input:</strong> nums = [2,7,11,15], target = 9
 <strong>Output:</strong> [0,1]
-<strong>Output:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
+<strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].
 </pre>
 
 <p><strong>Example 2:</strong></p>
@@ -28,9 +28,11 @@
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>2 &lt;= nums.length &lt;= 10<sup>3</sup></code></li>
+	<li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
 	<li><strong>Only one valid answer exists.</strong></li>
 </ul>
-</div>
+
+<p>&nbsp;</p>
+<strong>Follow-up:&nbsp;</strong>Can you come up with an algorithm that is less than&nbsp;<code>O(n<sup>2</sup>)&nbsp;</code>time complexity?</div>
